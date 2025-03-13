@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="aruco_marker">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <box>
+            <size>0.2 0.2 0.01</size>
+          </box>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://aruco_marker/materials/scripts</uri>
+            <name>Gazebo/White</name>
+          </script>
+          <texture>
+            <diffuse>model://aruco_marker/materials/textures/aruco_marker.png</diffuse>
+          </texture>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
